@@ -1,0 +1,25 @@
+.custom-btn{
+    display:inline-block;
+    padding: .6em 1.6em;
+    margin: 0 0.5em 0.5em 0;
+    border-radius: .15em;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    background-color: #6c062d;
+    box-shadow: 0 -.6em 0 -.35em rgba(0,0,0,0.17);
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  .custom-btn:active{
+    top: .1em;
+  }
+  
+  .custom-btn:disabled{
+    cursor: not-allowed;
+  }
